@@ -10,6 +10,7 @@ body, html {
 
 /* Navigation Bar */
 
+
 .logo-style {
 width: 3rem;
 height: 4.5rem;
@@ -102,4 +103,29 @@ line-height: 12px;
 margin-top: 6px;
 box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
+
+/* Hero Banner Images */
+
+.hero-banner-homepage {
+    position: relative;
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 15rem; 
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)),
+    url(/static/assets/imgs/homebanner.jpg);        
+}
+
+.page-hero-title {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: .25rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+
     
