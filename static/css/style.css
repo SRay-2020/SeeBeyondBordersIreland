@@ -370,7 +370,7 @@ padding-bottom: .5rem;
 
 .chair-row {
 width: 100%;
-height: 18rem;
+height: 52rem;
 }
 
 .chair-col1 {
@@ -402,12 +402,8 @@ color: #004587;
 /* Footer */
 
 footer {
-background-color: #e2e1e1;
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-height: 12rem;
+background-color: #afadad;
+height: 20rem;
 }
 
 .footer-text {
@@ -424,12 +420,11 @@ padding-bottom: 0rem;
 }
 
 .footer-container {
-position: fixed;
 display: block;
 width: 100%;
 height: 100%;
+text-align: center;
 margin: 0 auto;
 padding-left: 10px;
 padding-right: 10px;
-text-align: left;
 }
